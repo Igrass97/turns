@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  padding: 2rem;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+#turns-view {
+  display: flex;
+  justify-content: space-evenly;
+
+  height: 100%;
+}
+
+#left-panel {
+  width: 30%;
+  height: 100%;
+}
+
+#right-panel {
+  width: 50%;
+}
+
+#current-turn {
+  height: 200px;
+}
+
+#buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#list {
+  margin-top: 2rem;
+  padding: 1rem;
+  list-style-type: none;
+  background-color: #4a4a4a0f;
+}
+
+#current-person {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2.2rem;
+  color: #5ab706;
+  text-transform: uppercase;
+}
+
+.container {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box-border {
+  border: 1px solid rgba(146, 146, 146, 0.733);
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: #269399;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5cb1b6;
+}
+
+.btn:active {
+  background-color: #396e70;
+}
+
+.list-item {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.list-item:not(:last-child) {
+  border-bottom: 1px solid grey;
+}
